@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 * {
   padding: 0;
@@ -59,7 +62,7 @@ body {
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
@@ -68,7 +71,7 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
@@ -77,34 +80,201 @@ body {
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
+}
+.size-12 {
+  font-size: 12px;
+}
+.size-15 {
+  font-size: 15px;
+}
+.size-20 {
+  font-size: 20px;
+}
+.size-35 {
+  font-size: 35px;
+}
+.size-45 {
+  font-size: 45px;
+}
+.size-55 {
+  font-size: 55px;
+}
+.size-60 {
+  font-size: 60px;
+}
+.size-70 {
+  font-size: 70px;
+}
+
+.didDLetter,
+.frontendNTwoLetter,
+.developerPLetter,
+.becauseBLetter,
+.theyHLetter,
+.wantedTLetter,
+.improvePLetter,
+.skillsSLetter {
+  color: plum;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: "Ceviche One", sans-serif;
+}
+.didILetter,
+.developerLLetter,
+.takeKLetter,
+.gardeningGTwoLetter,
+.theyTLetter,
+.wantedALetter,
+.improveILetter,
+.theirILetter,
+.skillsKLetter {
+  color: orange;
+  font-weight: normal;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Victor Mono", sans-serif;
+}
+.didDTwoLetter,
+.developerETwoLetter,
+.developerRLetter,
+.gardeningNTwoLetter,
+.becauseELetter,
+.theyYLetter,
+.theirRLetter,
+.skillsILetter {
+  color: #3cb371;
+  font-weight: 400;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Cormorant Infant", sans-serif;
+}
+.theTLetter,
+.frontendELetter,
+.takeALetter,
+.gardeningILetter,
+.becauseALetter,
+.wantedNLetter,
+.theirTLetter,
+.skillsLLetter {
+  color: #0000ff;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Mali", sans-serif;
+}
+.theHLetter,
+.frontendDLetter,
+.developerEThreeLetter,
+.gardeningNLetter,
+.becauseULetter,
+.wantedELetter,
+.improveVLetter,
+.skillsLTwoLetter {
+  color: #6a5acd;
+  font-weight: 700;
+  text-decoration: line-through;
+  text-transform: none;
+  font-family: "Raleway Dots", sans-serif;
+}
+.theELetter,
+.developerOLetter,
+.upULetter,
+.gardeningELetter,
+.becauseSLetter,
+.wantedDLetter,
+.toOLetter,
+.theirELetter,
+.skillsSTwoLetter {
+  color: hsla(201 91% 23% / 0.75);
+  font-weight: 400;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Mali", sans-serif;
+}
+.frontendFLetter,
+.frontendTLetter,
+.takeELetter,
+.gardeningDLetter,
+.theyELetter,
+.improveMLetter,
+.theirHLetter,
+.rootTLetter,
+.hyphen {
+  color: hsla(59 100% 29% / 0.9);
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Victor Mono", sans-serif;
+}
+.frontendRLetter,
+.developerVLetter,
+.takeTLetter,
+.gardeningRLetter,
+.toTLetter,
+.improveRLetter,
+.rootOTwoLetter,
+.question-mark {
+  color: rgb(254 0 0);
+  font-weight: bold;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Cormorant Infant", sans-serif;
+}
+.frontendOLetter,
+.developerELetter,
+.upPLetter,
+.gardeningALetter,
+.becauseETwoLetter,
+.improveOLetter,
+.rootOLetter,
+.exclamation-mark {
+  color: rgb(0 255 0);
+  font-weight: bold;
+  text-decoration: overline;
+  text-transform: capitalize;
+  font-family: "Victor Mono", sans-serif;
+}
+.frontendNLetter,
+.developerDLetter,
+.gardeningGLetter,
+.becauseCLetter,
+.wantedWLetter,
+.improveELetter,
+.rootRLetter {
+  color: rgb(203 222 158);
+  font-weight: 400;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Piazolla", sans-serif;
 }
 
 /* DID word */
 
-.didDLetter {
+/* .didDLetter {
 }
 
 .didILetter {
 }
 
 .didDTwoLetter {
-}
+} */
 
 /* THE word */
 
-.theTLetter {
+/* .theTLetter {
 }
 
 .theHLetter {
 }
 
 .theELetter {
-}
+} */
 
 /* FRONT-END word */
 
-.frontendFLetter {
+/* .frontendFLetter {
 }
 
 .frontendRLetter {
@@ -126,11 +296,11 @@ body {
 }
 
 .frontendDLetter {
-}
+} */
 
 /* DEVELOPER word */
 
-.developerDLetter {
+/* .developerDLetter {
 }
 .developerELetter {
 }
@@ -147,29 +317,29 @@ body {
 .developerEThreeLetter {
 }
 .developerRLetter {
-}
+} */
 
 /* TAKE word */
 
-.takeTLetter {
+/* .takeTLetter {
 }
 .takeALetter {
 }
 .takeKLetter {
 }
 .takeELetter {
-}
+} */
 
 /* UP word */
 
-.upULetter {
+/* .upULetter {
 }
 .upPLetter {
-}
+} */
 
 /* GARDENING word */
 
-.gardeningGLetter {
+/* .gardeningGLetter {
 }
 .gardeningALetter {
 }
@@ -186,11 +356,11 @@ body {
 .gardeningNTwoLetter {
 }
 .gardeningGTwoLetter {
-}
+} */
 
 /* BECAUSE word */
 
-.becauseBLetter {
+/* .becauseBLetter {
 }
 .becauseELetter {
 }
@@ -203,22 +373,22 @@ body {
 .becauseSLetter {
 }
 .becauseETwoLetter {
-}
+} */
 
 /* THEY word */
 
-.theyTLetter {
+/* .theyTLetter {
 }
 .theyHLetter {
 }
 .theyELetter {
 }
 .theyYLetter {
-}
+} */
 
 /* WANTED word */
 
-.wantedWLetter {
+/* .wantedWLetter {
 }
 .wantedALetter {
 }
@@ -229,18 +399,18 @@ body {
 .wantedELetter {
 }
 .wantedDLetter {
-}
+} */
 
 /* TO word */
 
-.toTLetter {
+/* .toTLetter {
 }
 .toOLetter {
-}
+} */
 
 /* IMPROVE word */
 
-.improveILetter {
+/* .improveILetter {
 }
 .improveMLetter {
 }
@@ -253,11 +423,11 @@ body {
 .improveVLetter {
 }
 .improveELetter {
-}
+} */
 
 /* THEIR word */
 
-.theirTLetter {
+/* .theirTLetter {
 }
 .theirHLetter {
 }
@@ -266,22 +436,22 @@ body {
 .theirILetter {
 }
 .theirRLetter {
-}
+} */
 
 /* ROOT word */
 
-.rootRLetter {
+/* .rootRLetter {
 }
 .rootOLetter {
 }
 .rootOTwoLetter {
 }
 .rootTLetter {
-}
+} */
 
 /* SKILLS word */
 
-.skillsSLetter {
+/* .skillsSLetter {
 }
 .skillsKLetter {
 }
@@ -292,13 +462,13 @@ body {
 .skillsLTwoLetter {
 }
 .skillsSTwoLetter {
-}
+} */
 
 /* SYMBOLS */
 
-.hyphen {
+/* .hyphen {
 }
 .exclamation-mark {
 }
 .question-mark {
-}
+} */
